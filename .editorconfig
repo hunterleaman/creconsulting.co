@@ -1,0 +1,23 @@
+# top-most EditorConfig file
+root = true
+
+# Default settings
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Markdown: don’t strip trailing whitespace (needed for line breaks)
+[*.md]
+trim_trailing_whitespace = false
+
+# JSON & YAML: 2 spaces for readability
+[*.{json,yml,yaml}]
+indent_size = 2
+
+# Makefiles: tabs required
+[Makefile]
+indent_style = tab

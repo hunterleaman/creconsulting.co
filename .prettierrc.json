@@ -1,0 +1,9 @@
+{
+  "singleQuote": true,
+  "printWidth": 80,
+  "semi": true,
+  "bracketSpacing": true,
+  "plugins": ["prettier-plugin-css-order"],
+  "cssDeclarationSorterOrder": "alphabetical",
+  "cssDeclarationSorterKeepOverrides": true
+}

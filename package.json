@@ -1,7 +1,7 @@
 {
   "devDependencies": {
-    "css-declaration-sorter": "^7.2.0",
-    "prettier": "^3.6.2",
-    "prettier-plugin-css-order": "^2.1.2"
+    "css-declaration-sorter": "6.4.0",
+    "prettier": "3.3.3",
+    "prettier-plugin-css-order": "2.1.2"
   }
 }
